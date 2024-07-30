@@ -1,0 +1,80 @@
+.container {
+  max-width: 960px;
+}
+
+/* home page */
+main #banner {
+  height: 60vh;
+  min-height: 60vh;
+}
+main #banner .container #banner_info {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+main #banner .container #banner_info h1 {
+  font-size: 4rem;
+  margin: 0;
+  width: 60%;
+}
+main #banner .container #banner_info p {
+  width: 50%;
+}
+#banner .container #banner_img {
+  display: none;
+}
+main #special_dishes #dishes .dish_box:last-child {
+  display: none;
+}
+main #blogs #blog_container {
+  width: 80%;
+}
+
+/* blog details */
+#blog_details h1 {
+  width: 100%;
+}
+#blog_details p#description {
+  width: 80%;
+}
+#blog_body {
+  width: 80%;
+}
+
+/* contact us */
+#form_container button {
+  width: 35%;
+}
+#contact_form_container .container {
+  flex-wrap: wrap;
+}
+#contact_form_container #contact_info {
+  width: 100%;
+  text-align: center;
+}
+#contact_form_container #contact_info .info_box {
+  flex-direction: column;
+  gap: 0.8rem;
+}
+#contact_form_container #contact_form {
+  width: 100%;
+}
+#contact_form_container #contact_info ul {
+  justify-content: center;
+}
+#more_contact .container {
+  padding: 1rem;
+}
+
+/* menu page */
+#menu_list .container {
+  grid-template-columns: repeat(3, 1fr);
+}
+#order_via_app p {
+  width: 80%;
+}
+
+/* footer */
+footer #footer_info .info_box#second #suscribe_input {
+  width: 100%;
+}

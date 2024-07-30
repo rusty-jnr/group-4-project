@@ -1,0 +1,126 @@
+#menu_filter .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menu_filter ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#menu_filter ul li {
+  border: 1px solid #ea6d27;
+  padding: 10px 15px;
+  border-radius: 50px;
+  min-width: 80px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+#menu_filter ul li.active {
+  background-color: #ea6d27;
+  color: #fff;
+}
+#menu_list {
+  margin: 3rem 0;
+}
+#menu_list .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+#menu_list #menu_item_box {
+  border-radius: 12px;
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #dbdfd0;
+  background-color: #fff;
+  overflow: hidden;
+}
+#menu_list #menu_item_box #image_box {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+}
+#menu_list #menu_item_box #image_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#menu_list #menu_item_box #info_box {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#menu_list #menu_item_box #info_box p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+}
+#menu_list #menu_item_box #info_box p:first-of-type {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ea6d27;
+}
+#menu_list #menu_item_box #info_box h3 {
+  color: #2c2f24;
+}
+
+#order_via_app {
+  background-color: #e8e9ea;
+  padding: 5rem 0;
+}
+#order_via_app .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#order_via_app p {
+  position: relative;
+  width: fit-content;
+  font-weight: 300;
+  line-height: 1.5rem;
+  width: 40%;
+  text-align: center;
+  margin: 0;
+}
+#order_via_app h2 {
+  font-size: 2rem;
+  margin: 0.6rem 0;
+}
+#order_via_app #apps {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+#order_via_app #app_box {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+#order_via_app #app_box:hover {
+  box-shadow: 0 4px 33px rgba(0, 0, 0, 0.1);
+}
+#order_via_app #app_box img {
+  width: 60%;
+  height: 50%;
+  object-fit: contain;
+}
+#order_via_app button {
+  margin-top: 2rem;
+}
