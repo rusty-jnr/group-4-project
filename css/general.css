@@ -413,6 +413,7 @@ footer {
   background-image: url("../images/frying-pan-bg1.svg");
   background-repeat: no-repeat;
   background-position: 100% 0%;
+  margin-top: 2rem;
   /* box-shadow: 2 2px 5px rgba(0, 0, 0, 0.03); */
 }
 footer #footer_logo {

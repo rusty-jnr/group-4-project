@@ -1,5 +1,4 @@
 /* Home Page Starts */
-/* main */
 main #banner {
   height: 80vh;
   min-height: 80vh;
@@ -175,7 +174,40 @@ main #special_dishes #dishes p {
   width: 100%;
   line-height: 1.2rem;
 }
-/* main ends */
+#table_container {
+  overflow-x: auto;
+}
+table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+table thead tr {
+  color: #eee;
+  background-color: #ea6d27;
+}
+
+table caption {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+table caption,
+table th {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+table td,
+table th {
+  text-align: center;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: rgba(234, 111, 39, 0.498);
+}
 /* Home Page Ends */
 
 /* About Page Starts */

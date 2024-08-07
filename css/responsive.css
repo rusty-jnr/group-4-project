@@ -30,6 +30,9 @@
   main #blogs #blog_container {
     width: 80%;
   }
+  table {
+    width: 90%;
+  }
 
   /* blog details */
   #blog_details h1 {
@@ -194,6 +197,9 @@
   }
   main #blogs .container p {
     width: 90%;
+  }
+  table {
+    width: 100%;
   }
 
   /* about us page */
@@ -376,7 +382,7 @@
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 520px) {
   .container {
     padding: 1rem;
   }
